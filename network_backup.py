@@ -30,7 +30,7 @@ date = date.strftime("%Y%m%d")
 os.mkdir(date)
 
 # CSV file format
-# hostname,device_type,host IP,username,password,secret,sh_conf,sh_ip_int_br
+# device_name,device_type,host IP,username,password,secret,sh_conf,sh_ip_int_br
 device_file = open('devices.csv', 'r')
 device_list = device_file.readlines()
 
